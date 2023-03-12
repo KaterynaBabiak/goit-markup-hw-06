@@ -113,6 +113,10 @@ span {
     display: flex;
 }
 
+.site-nav .menu-link {
+    color: var(--nav-hoverfocus);
+}
+
 .address {
     margin-left: auto;
 }
@@ -854,7 +858,7 @@ span {
 .modal-form {
     display: flex;
     flex-direction: column;
-    padding: 16px 0 0 0;    
+    padding: 16px 0 0 0; 
 }
 
 .modal-form-field {
