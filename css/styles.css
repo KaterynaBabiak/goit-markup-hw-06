@@ -153,6 +153,7 @@ span {
 
     position: relative;
     display: block;
+    
 }
 
 .menu-link::after {
@@ -171,6 +172,12 @@ span {
     opacity: 1;
     
 }
+
+.menu-link::after + .menu-link {
+    color: var(--nav-hoverfocus);
+}
+
+
 
 .hero {
     /*outline: 2px solid tomato;*/
@@ -847,7 +854,7 @@ span {
 .modal-form {
     display: flex;
     flex-direction: column;
-    padding: 16px 0 16px 0;    
+    padding: 16px 0 0 0;    
 }
 
 .modal-form-field {
