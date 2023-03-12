@@ -126,7 +126,7 @@
                             placeholder="Text input" 
                         ></textarea>
                     </label>
-                </form>
+                
                     <input 
                         id="user-policy" 
                         type="checkbox" 
@@ -136,7 +136,8 @@
                     </label>
 
                     <button type="submit" class="modal-form-submit">Send</button>
-                
+                </form>
+
             </div>
 
         
@@ -494,21 +495,25 @@
                 <li class="footik-subscribe">
                     <p class="subscribe">Subscribe</p>
 
-                    <div class="button-subscribe">
-                        <input 
-                        type="email"
-                        name="user_email" 
-                        class="subscribe-input-email" 
-                        required
-                        placeholder="E-mail" />
+                    <Form foottik-form>
+                        <div class="button-subscribe">
+                            <input 
+                            type="email"
+                            name="user_email" 
+                            class="subscribe-input-email" 
+                            required
+                            placeholder="E-mail" />
+    
+                            <button type="submit" class="btn-subscribe">
+                                <p>Subscribe</p> 
+                                <svg class="button-subscribe-icon" width="24" height="24">
+                                    <use href="./images/sprite.svg#icon-subscribe"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </Form>
 
-                        <button type="submit" class="btn-subscribe">
-                            <p>Subscribe</p> 
-                            <svg class="button-subscribe-icon" width="24" height="24">
-                                <use href="./images/sprite.svg#icon-subscribe"></use>
-                            </svg>
-                        </button>
-                    </div>
+                  
                     
                 </li>
                 
